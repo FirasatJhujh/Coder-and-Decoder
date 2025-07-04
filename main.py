@@ -8,7 +8,7 @@ class Ui_MainWindow(QMainWindow):
         super(Ui_MainWindow, self).__init__()
 
         # Load the UI
-        loadUi("code_or_decode.ui", self)
+        loadUi("interface.ui", self)
 
         # Define our variables
         self.text_edit = self.findChild(QTextEdit, "textEdit")
